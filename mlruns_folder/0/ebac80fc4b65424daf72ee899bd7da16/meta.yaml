@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/ebac80fc4b65424daf72ee899bd7da16/artifacts
+end_time: 1649862740504
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+name: ''
+run_id: ebac80fc4b65424daf72ee899bd7da16
+run_uuid: ebac80fc4b65424daf72ee899bd7da16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1649862740479
+status: 3
+tags: []
+user_id: lukaslange

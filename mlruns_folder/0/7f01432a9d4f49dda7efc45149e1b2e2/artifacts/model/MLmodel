@@ -1,0 +1,21 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.9.7
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.0.2
+model_uuid: 85757c20695f47599e2a5a97d4d0793d
+run_id: 7f01432a9d4f49dda7efc45149e1b2e2
+signature:
+  inputs: '[{"name": "age", "type": "long"}, {"name": "sex", "type": "long"}, {"name":
+    "bmi", "type": "double"}, {"name": "children", "type": "long"}, {"name": "smoker",
+    "type": "long"}, {"name": "region", "type": "long"}, {"name": "health_state",
+    "type": "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    1]}}]'
+utc_time_created: '2022-04-14 12:20:34.401878'
